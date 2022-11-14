@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+
+
+<style>
+
+    .cell {
+        border-collapse: collapse;
+        /* border: 3px solid rgb(254, 254, 254); */
+        /* margin: auto; */
+        justify-content: center;
+        padding: 5px 10px;
+
+      }
+      
+      .table {
+        border-collapse: collapse;
+        border-style: hidden;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        margin: auto;
+      }
+      
+      .table-head > .row {
+        border-collapse: collapse;
+        /* border: 5px solid rgb(255, 255, 255); */
+        height: 300px;
+        width:600px ;
+      }
+
+      .ProdBody
+      {
+        background-color: black;
+     /* background-image: url(https://wallpaperaccess.com/full/281054.jpg); 
+        background-size: 20%;  */
+        color: white;
+      }
+
+      .img
+      {
+        height: 200px;
+        width: 250px;
+        transition: transform .2s;
+
+        /* to align image center */
+        display: block;
+        margin: 0 auto;
+      }
+
+      table td
+      {
+        width: 500px;
+        height: 300px;
+      }
+     
+
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.text{
+    /* display: none;  */
+            visibility: hidden;
+            position: relative;
+            text-align: center;
+            /* top: -20px; */
+            color: #fff;
+            /* visibility: hidden; */
+            /* opacity: 0; */
+            /* transition: opacity .2s, visibility .2s; */
+}
+
+.zoom:hover  .img{
+  transform: scale(1.3); 
+  /* backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%; */
+}
+/* .zoom:hover {
+ background-image:  radial-gradient(#444,#111);
+ background-image:  radial-gradient(#fff,#fff);
+ width: 100%;
+ height: 100%;
+} */
+
+
+.zoom:hover .text
+{
+  transform: scale(1.5); 
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .zoom:hover .img
+{
+  backdrop-filter: blur(5px);
+
+  
+} */
+
+
+
+</style>
+
+<body class="ProdBody"> 
+
+  <nav>
+    <ul class="nav">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Product.html">Products</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li style="margin-left:833px ;"><a href="Login.html"><img style="height:28px ; width: 30px;" src="https://www.citypng.com/public/uploads/small/11639594342hjraqgbufi3xlb66lt30fz1pwfcydxkjqbynfqdpvufz41ysjtngiet4dyrywgqqqqu56w5nozgrhyecs4ixrlllkl150ogbiid1.png" alt=""></a></li>
+    </ul>
+</nav>
+    
+
+  <h1 style="font-size: 30px;">Products</h1>
+
+   <div class="Container">
+
+    <table class="table">
+
+      <tbody class="table-body">
+  
+        <tr class="row">
+          <td class="cell" >
+              <div class="zoom">
+                  <img class="img" src="https://sneakernews.com/wp-content/uploads/2016/09/nike-vapormax-blue-2016-release.jpg" alt="">
+                  <h1  class="text" style="color: white;">99.9$</h1>
+                </div>
+              
+                  
+              
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" 
+                  style="object-fit: contain; object-position: Zoom; height: 300px; width: 350px; margin-left: -70px; margin-top: -80px;" 
+                  src="https://static.nike.com/a/images/t_default/85de7048-456c-4158-bb2b-ee84bcf921a5/air-vapormax-plus-mens-shoes-nC0dzF.png" alt="">
+                  <h1  class="text" style="color: white; top: -40px;">125.9$</h1>
+              </div>
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" 
+                  style="object-fit: contain; object-position: Zoom; height: 300px; width: 350px; margin-left: -70px; margin-top: -80px;" 
+                    src="https://images.footlocker.com/is/image/EBFL2/M1023001?wid=300&hei=300&fmt=png-alpha" alt="">
+                    <h1  class="text" style="color: white; top: -40px;">499$</h1>
+              </div>
+          </td>   
+        </tr>
+  
+        <tr class="row">
+          <td class="cell" >
+              <div class="zoom">
+                  <img class="img" 
+                  style="object-fit: contain; object-position: Zoom; height: 350px; width: 400px; margin-left: -120px; margin-top: -100px;" 
+                    src="Orange.png" alt="">
+                    <h1  class="text" style="color: white; top: -60px;">78.9$</h1>
+              </div>
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img"  style="object-fit:cover ;" src="https://image.goat.com/750/attachments/product_template_pictures/images/077/642/736/original/981386_00.png.png" alt="">
+                  <h1  class="text" style="color: white;">59.99$</h1>
+              </div>
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" 
+                  style="object-fit: contain; object-position: Zoom; height: 350px; width: 400px; margin-left: -100px; margin-top: -80px;" 
+                      src="https://s3files.core77.com/blog/images/1036786_81_97777_UwWz4EmFK.PNG" alt="">
+                      <h1  class="text" style="color: white; top: -90px;">139.9$</h1>
+              </div>
+          </td>
+        </tr>
+  
+        <tr class="row">
+  
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" 
+                      style="object-fit: contain; object-position: Zoom; height: 400px; width: 500px; margin-left: -150px; margin-top: -130px;" 
+                      src="https://www.oregonlive.com/resizer/_oOGsZiTrvWcIiyW4O9deU35R5E=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/ILDZRXUQJJFUHA4OBQIYBMSKFM.png" alt="">
+                      <h1  class="text" style="color: white; top: -90px;">129.99$</h1>
+              </div>
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" style=" object-fit: contain; width: 450px;height: 300px;margin-left: -120px; margin-top: -30px;" 
+         
+                      src="https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmlrZSUyMHNuZWFrZXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+                      <h1  class="text" style="color: white; top: -70px;">140.9$</h1>
+              </div>
+          </td>
+          <td class="cell">
+              <div class="zoom">
+                  <img class="img" 
+                    style="object-fit: contain; object-position: Zoom; height: 400px; width: 500px; margin-left: -130px; margin-top: -130px;" 
+                    src="https://www.oregonlive.com/resizer/IIcRsEy5FrqgpDgM1ik0Ez8PBz4=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XSP4OWPHKND7XEREK7XXLGVXQY.png" alt="">
+                    <h1  class="text" style="color: white; top: -70px;">129.9$</h1>
+              </div>
+          </td>
+        </tr>
+  
+      </tbody>
+    </table>
+
+   </div>
+
+
+  <br><br><br>
+  <hr style=" border: 1px solid white;width:90%" >
+   
+  <p  style=" color: white; font-size: 15px;text-align: justify;text-align: center;">2022 © Abhindev · Privacy Policy and Cookies Policy </p>
+
+  <div>
+
+  </div>
+
+</body>
+
+</html>

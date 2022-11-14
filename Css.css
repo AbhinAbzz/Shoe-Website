@@ -1,0 +1,250 @@
+.nav
+{
+    background-color: black;
+    color: white;
+    list-style:none;
+    margin: 0;
+    line-height:36px;
+    height:40px;
+    width: 1400px;
+    /* text-align: center;
+    list-style-position: inside; */
+    /* background-position: left center; */
+    display: table;   /* Allow the centering to work */
+	/* margin:0  auto; */
+    margin-top: -11px;
+    margin-left: -20px;
+    text-align: center;
+   
+
+}
+
+li{
+    margin-right:100px ;
+    text-align: center;
+}
+
+ul.nav li {
+    float:left;
+    margin-right: 10px;
+    text-align: center;
+    /* text-align: center;
+    list-style-position: inside; */
+
+}
+
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:white;
+    text-decoration:none;
+    text-align: center;
+    /* text-align: center;
+    list-style-position: inside; */
+}
+
+/* footer */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    background: black;
+    color:#ffff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    color: red;
+}
+
+  .footer
+  {
+    margin-left:350px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+
+  }
+  /* **************** */
+
+  .LoginLable
+{
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.LoginInput
+{
+    
+    font-size: 12px;
+
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    height: 35px;
+    width: 350px;
+
+    border: 1px solid rgba(81, 81, 81, 0.116);
+    
+    
+}
+
+.LoginForget
+{
+    background-color:white;
+    border:0px;
+    margin-left: 359px;
+    margin-top: -500px;
+}
+
+.LoginBtn
+{
+    margin-left: 100px;
+    /* margin-bottom: 20px; */
+    /* margin-top: 50px; */
+  
+    height: 35px;
+    width: 350px;
+    line-height: 12px;
+    /* letter-spacing: 35px; */
+  white-space: nowrap;
+  /* border: solid 1px #ccc; */
+  display: inline-block;
+
+    
+}
+
+/* 88888888888888888888888888888888888888888 */
+/* Home */
+
+.DIV1
+{
+    background-image: 
+    url(https://images.jdmagicbox.com/quickquotes/images_main/nike-mens-footwear-23-07-2021-682-239598716-pz0pz.png),
+    radial-gradient(#444,#111);
+    /* background-repeat: none;
+      background-attachement: fixed;
+      background=position:center center*/
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode:multiply;
+    height: 700px;
+    width: 1450px;
+    /* background-color: white; */
+    margin-top: -70px;
+    margin-left: -10px;
+}
+
+.Heading
+{
+    color: white;
+    /* padding: 30px; */
+    /* padding-top: 100px; */
+    text-align: center;
+    /* line-height: 1; */
+    /* text-transform: uppercase; */
+    /* font-size: clamp(3rem,calc(5vh+1rem),4rem); */
+    margin-top: -0px;
+
+}
+
+.Nike
+{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-style: italic ;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    /* line-height: 2; */
+}
+.Nike img
+{
+    height: 100px;
+    width: 100px;
+    line-height: 1;
+
+}
+
+.JUST
+{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -70px;
+    /* line-height: 1; */
+}
+
+/*               div 2                */
+
+.DIV2
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 700px;
+    width: 1450px;
+    background-color: #111;
+}
+.DIV2_1
+{
+    float: left;
+
+    height: 700px;
+    width: 725px;
+}
+
+.DIV2_2
+{
+    float: left;
+
+    height: 700px;
+    width: 725px;
+    
+}
+.Shoe2
+{
+    rotate: -30deg;
+    height: 600px;
+    width: 600px;
+}
+
+.DIV3
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 700px;
+    width: 1450px;
+    background-color: #111;
+}
+
+.DIV4
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 700px;
+    width: 1450px;
+    background-color: #111;
+}
+
+.DIV5
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 820px;
+    width: 1450px;
+    background-color: #111;
+    /* text-align: center; */
+   /* background-image: url(https://i.pinimg.com/736x/03/08/ee/0308eec4ae6bb222d2af3ed07073bee1--shoe-designs-photoshop.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;*/
+} 
